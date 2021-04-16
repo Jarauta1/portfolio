@@ -533,24 +533,48 @@ const projects = {
         },
         {
           name: "CSS3",
-          logo_path: "html5.png",
+          logo_path: "css3.png",
         },
         {
-          name: "React",
-          logo_path: "html5.png",
+          name: "JavaScript",
+          logo_path: "js.png",
         },
         {
-          name: "Firebase",
-          logo_path: "html5.png",
+          name: "ReactJS",
+          logo_path: "react-black.png",
+        },
+        {
+          name: "Bootstrap",
+          logo_path: "bootstrap.png",
+        },
+        {
+          name: "ChartJS",
+          logo_path: "chartjs.png",
+        },
+        {
+          name: "Express",
+          logo_path: "express.png",
+        },
+        {
+          name: "NodeJS",
+          logo_path: "node.png",
+        },
+        {
+          name: "NPM",
+          logo_path: "npm.png",
+        },
+        {
+          name: "MongoDB",
+          logo_path: "mongodb.png",
         },
       ],
     },
     {
       id: "1",
-      name: "DJ Shop",
-      url: "https://github.com/Jarauta1/DJ-cliente",
+      name: "AppRun",
+      url: "https://github.com/Jarauta1/3M12---AppRun_cliente",
       description:
-        "Proyecto Full Stack para una página web e-commerce basada en MERN Stack (MongoDB, Express.js, React.js, Node.js) con diferentes secciones y un análisis de datos accesible tan solo a usuarios con rango administrador.",
+        "Proyecto Full Stack para una página web de muestreo de datos deportivos",
       languages: [
         {
           name: "HTML5",
@@ -558,24 +582,45 @@ const projects = {
         },
         {
           name: "CSS3",
-          logo_path: "html5.png",
+          logo_path: "css3.png",
         },
         {
-          name: "React",
-          logo_path: "html5.png",
+          name: "JavaScript",
+          logo_path: "js.png",
         },
         {
-          name: "Firebase",
-          logo_path: "html5.png",
+          name: "ReactJS",
+          logo_path: "react-black.png",
+        },
+        
+        {
+          name: "ChartJS",
+          logo_path: "chartjs.png",
+        },
+        {
+          name: "Express",
+          logo_path: "express.png",
+        },
+        {
+          name: "NodeJS",
+          logo_path: "node.png",
+        },
+        {
+          name: "NPM",
+          logo_path: "npm.png",
+        },
+        {
+          name: "MongoDB",
+          logo_path: "mongodb.png",
         },
       ],
     },
     {
-      id: "2",
-      name: "DJ Shop",
-      url: "https://github.com/Jarauta1/DJ-cliente",
+      id: "",
+      name: "Portfolio",
+      url: "https://github.com/Jarauta1/portfolio",
       description:
-        "Proyecto Full Stack para una página web e-commerce basada en MERN Stack (MongoDB, Express.js, React.js, Node.js) con diferentes secciones y un análisis de datos accesible tan solo a usuarios con rango administrador.",
+        "Este portfolio como tal es otro proyecto desarrollado",
       languages: [
         {
           name: "HTML5",
@@ -583,68 +628,20 @@ const projects = {
         },
         {
           name: "CSS3",
-          logo_path: "html5.png",
+          logo_path: "css3.png",
         },
         {
-          name: "React",
-          logo_path: "html5.png",
+          name: "JavaScript",
+          logo_path: "js.png",
         },
         {
-          name: "Firebase",
-          logo_path: "html5.png",
+          name: "ReactJS",
+          logo_path: "react-black.png",
         },
+        
       ],
     },
-    {
-      id: "3",
-      name: "DJ Shop",
-      url: "https://github.com/Jarauta1/DJ-cliente",
-      description:
-        "Proyecto Full Stack para una página web e-commerce basada en MERN Stack (MongoDB, Express.js, React.js, Node.js) con diferentes secciones y un análisis de datos accesible tan solo a usuarios con rango administrador.",
-      languages: [
-        {
-          name: "HTML5",
-          logo_path: "html5.png",
-        },
-        {
-          name: "CSS3",
-          logo_path: "html5.png",
-        },
-        {
-          name: "React",
-          logo_path: "html5.png",
-        },
-        {
-          name: "Firebase",
-          logo_path: "html5.png",
-        },
-      ],
-    },
-    {
-      id: "4",
-      name: "DJ Shop",
-      url: "https://github.com/Jarauta1/DJ-cliente",
-      description:
-        "Proyecto Full Stack para una página web e-commerce basada en MERN Stack (MongoDB, Express.js, React.js, Node.js) con diferentes secciones y un análisis de datos accesible tan solo a usuarios con rango administrador.",
-      languages: [
-        {
-          name: "HTML5",
-          logo_path: "html5.png",
-        },
-        {
-          name: "CSS3",
-          logo_path: "html5.png",
-        },
-        {
-          name: "React",
-          logo_path: "html5.png",
-        },
-        {
-          name: "Firebase",
-          logo_path: "html5.png",
-        },
-      ],
-    },
+    
     
   
   ],

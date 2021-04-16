@@ -24,6 +24,7 @@ function ProjectLanguages(props) {
                 >
                   <img
                     className="logo_img2"
+                    style={{ height: "50px" }}
                     src={require(`../../assests/images/${logo.logo_path}`)}
                     alt=""
                   />
