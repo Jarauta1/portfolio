@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
   },
   typedContainer: {
     position: "absolute",
-    marginTop: "40%",
+    marginTop: "40px",
     /* top: "40%", */
     /* left: "50%", */
    /*  transform: "translate(-50%,-50%)", */
