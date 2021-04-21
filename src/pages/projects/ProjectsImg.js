@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function ProjectsImg(props) {
-  const theme = props.theme;
+/*   const theme = props.theme; */
   return (
     <svg id="b5d1da7b-a9c6-4711-8d73-fa7937ec989e" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="888" height="710.80704" viewBox="0 0 888 710.80704">
 <title>server_cluster</title>

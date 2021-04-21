@@ -1,7 +1,6 @@
 import React from "react";
 import "./Skills.css";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
-import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
 import FullStackImg from "./FullStackImg";
 import CloudInfraImg from "./CloudInfraImg";
@@ -17,9 +16,10 @@ function GetSkillSvg(props) {
 
 function SkillSection(props) {
   const theme = props.theme;
+  const lenguage = props.lenguage;
   return (
     <div>
-      {skills.data.map((skill, index) => {
+      {lenguage.skills.data.map((skill, index) => {
         if (index % 2 === 0) {
           return (
             <div className="skills-main-div">

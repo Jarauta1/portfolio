@@ -1,20 +1,17 @@
 import React from "react";
 import Header from "../../components/header/Header";
 import Greeting from "../../containers/greeting/Greeting";
-/* import Intro from "../../containers/intro/Intro"
-import Particles from "../../containers/particles/Particles" */
 import Skills from "../../containers/skills/Skills";
 import Footer from "../../components/footer/Footer";
 
 function Home(props) {
+  console.log(props)
   return (
     <div>
-      <Header theme={props.theme} setTheme={props.setTheme} />
-      <Greeting theme={props.theme} />
-     {/*  <Intro />
-      <Particles /> */}
-      <Skills theme={props.theme} />
-      <Footer theme={props.theme} />
+      <Header theme={props.theme} setTheme={props.setTheme} lenguage={props.lenguage} setLenguage={props.setLenguage}/>
+      <Greeting theme={props.theme} lenguage={props.lenguage} />
+      <Skills theme={props.theme} lenguage={props.lenguage} />
+      <Footer theme={props.theme} lenguage={props.lenguage} />
     </div>
   );
 }

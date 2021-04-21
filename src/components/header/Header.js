@@ -2,13 +2,37 @@ import React, { useState } from "react";
 import "./Header.css";
 import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
-import { greeting, settings } from "../../portfolio.js";
 import { CgSun } from "react-icons/cg/";
 import { HiMoon } from "react-icons/hi";
 import { style } from "glamor";
+import spa from "../../assests/images/spanish.png"
+import eng from "../../assests/images/english.png"
 
 function Header(props) {
   const theme = props.theme;
+  const lenguage = props.lenguage;
+  console.log(props)
+
+  let section1
+  let section2
+  let section3
+  let section4
+  let section5
+
+  if (lenguage.name === "spanish") {
+    section1 = "Inicio"
+    section2 = "Educación y Certificaciones"
+    section3 = "Experiencia"
+    section4 = "Proyectos"
+    section5= "Contacto y CV"
+  } else if (lenguage.name === "english") {
+    section1 = "Home"
+    section2 = "Education and Certifications"
+    section3 = "Experience"
+    section4 = "Projects"
+    section5= "Contact and CV"
+  }
+
 
   const styles = style({
     cursor: "pointer",
@@ -31,20 +55,47 @@ function Header(props) {
     },
   });
 
-  const link = settings.isSplash ? "/splash" : "home";
+  const styles2 = style({
+    cursor: "pointer",
+    height: "35px",
+    width: "35px",
+    marginRight: "5px",
+    marginLeft: "15px",
+    paddingTop: "5px",
+    border: "none",
+    alignItems: "center",
+    justifyContent: "center",
+    outline: "none",
+    backgroundColor: props.theme.name === "light" ? "#FFFFFF" : "#1d1d1d",
+  });
+
+  const link = lenguage.settings.isSplash ? "/splash" : "home";
 
   const [currTheme, setCurrTheme] = useState(props.theme);
+  /* const [currLenguage, setCurrLenguage] = useState(props.lenguage); */
 
   function changeTheme() {
-    if (currTheme === "light") {
-      props.setTheme("dark");
-      localStorage.setItem("theme", "dark");
-      setCurrTheme("dark");
-    } else {
+    if (currTheme === "dark") {
       props.setTheme("light");
       localStorage.setItem("theme", "light");
       setCurrTheme("light");
+    } else {
+      props.setTheme("dark");
+      localStorage.setItem("theme", "dark");
+      setCurrTheme("dark");
     }
+  }
+
+  function changeLenguageSpa() {
+      props.setLenguage("spanish");
+      localStorage.setItem("lenguage", "spanish");
+    /*   setCurrLenguage("spanish"); */
+  }
+
+  function changeLenguageEng() {
+      props.setLenguage("english");
+      localStorage.setItem("lenguage", "english");
+    /*   setCurrLenguage("english"); */
   }
 
   const icon =
@@ -69,7 +120,7 @@ function Header(props) {
           <NavLink to={link} tag={Link} className="logo">
             <span style={{ color: theme.text }}></span>
             <span className="logo-name" style={{ color: theme.text }}>
-              {greeting.logo_name}
+              {lenguage.greeting.logo_name}
             </span>
             <span style={{ color: theme.text }}></span>
           </NavLink>
@@ -86,7 +137,7 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Inicio
+                {section1}
               </NavLink>
             </li>
             <li>
@@ -97,7 +148,7 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Educación y Certificaciones
+                {section2}
               </NavLink>
             </li>
             <li>
@@ -108,7 +159,7 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Experiencia
+                {section3}
               </NavLink>
             </li>
             <li>
@@ -119,7 +170,7 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Proyectos
+                {section4}
               </NavLink>
             </li>
             <li>
@@ -130,12 +181,28 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Contacto y CV
+                {section5}
               </NavLink>
             </li>
             <button {...styles} onClick={changeTheme}>
               {icon}
             </button>
+           
+            <img
+                    {...styles2}
+                    onClick={changeLenguageSpa}
+                    src={spa}
+                    alt="spanish"
+                  />
+            
+           
+            <img
+                    {...styles2}
+                    onClick={changeLenguageEng}
+                    src={eng}
+                    alt="english"
+                  />
+           
           </ul>
         </header>
       </div>

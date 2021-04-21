@@ -2,7 +2,7 @@ import React from "react";
 import "./CloudInfraImg.css"
 
 export default function CloudInfraImg(props) {
-  const theme = props.theme;
+ /*  const theme = props.theme; */
   return (
 <svg id="b6117b06-2b45-45bc-b789-4a82ab6612dd" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="1139.17088" height="654.54324" viewBox="0 0 1139.17088 654.54324">
 <title>progressive_app</title>

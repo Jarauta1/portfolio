@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function ExperienceImg(props) {
-  const theme = props.theme;
+ /*  const theme = props.theme; */
   return (
     <svg id="e2165270-d70d-4354-9ac9-1848d055b0c2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="971.44041" height="662" viewBox="0 0 971.44041 662">
 <defs>

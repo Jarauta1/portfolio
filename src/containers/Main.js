@@ -6,10 +6,12 @@ import Education from "../pages/education/EducationComponent";
 import Experience from "../pages/experience/Experience";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
-import { settings } from "../portfolio.js";
+/* import { lenguages } from "../portfolio.js"; */
 
 export default function Main(propss) {
-  if (settings.isSplash) {
+  
+  const lenguage = propss.lenguage
+  if (lenguage.settings.isSplash) {
     return (
       <div>
         <HashRouter basename="/">
@@ -22,6 +24,8 @@ export default function Main(propss) {
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
+                  lenguage={propss.lenguage}
+                  setLenguage={propss.setLenguage}
                 />
               )}
             />
@@ -32,6 +36,8 @@ export default function Main(propss) {
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
+                  lenguage={propss.lenguage}
+                  setLenguage={propss.setLenguage}
                 />
               )}
             />
@@ -43,6 +49,8 @@ export default function Main(propss) {
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
+                  lenguage={propss.lenguage}
+                  setLenguage={propss.setLenguage}
                 />
               )}
             />
@@ -52,7 +60,9 @@ export default function Main(propss) {
                 <Education
                   {...props}
                   theme={propss.theme}
-                  setTheme={propss.setTheme}
+                  setTheme={propss.setTheme}lenguage={propss.lenguage}
+                  setLenguage={propss.setLenguage}
+
                 />
               )}
             />
@@ -63,6 +73,8 @@ export default function Main(propss) {
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
+                  lenguage={propss.lenguage}
+                  setLenguage={propss.setLenguage}
                 />
               )}
             />
@@ -73,6 +85,8 @@ export default function Main(propss) {
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
+                  lenguage={propss.lenguage}
+                  setLenguage={propss.setLenguage}
                 />
               )}
             />
@@ -83,6 +97,8 @@ export default function Main(propss) {
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
+                  lenguage={propss.lenguage}
+                  setLenguage={propss.setLenguage}
                 />
               )}
             />
@@ -103,6 +119,8 @@ export default function Main(propss) {
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
+                  lenguage={propss.lenguage}
+                  setLenguage={propss.setLenguage}
                 />
               )}
             />
@@ -113,6 +131,8 @@ export default function Main(propss) {
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
+                  lenguage={propss.lenguage}
+                  setLenguage={propss.setLenguage}
                 />
               )}
             />
@@ -124,6 +144,8 @@ export default function Main(propss) {
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
+                  lenguage={propss.lenguage}
+                  setLenguage={propss.setLenguage}
                 />
               )}
             />
@@ -134,6 +156,8 @@ export default function Main(propss) {
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
+                  lenguage={propss.lenguage}
+                  setLenguage={propss.setLenguage}
                 />
               )}
             />
@@ -144,6 +168,8 @@ export default function Main(propss) {
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
+                  lenguage={propss.lenguage}
+                  setLenguage={propss.setLenguage}
                 />
               )}
             />
@@ -154,6 +180,8 @@ export default function Main(propss) {
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
+                  lenguage={propss.lenguage}
+                  setLenguage={propss.setLenguage}
                 />
               )}
             />

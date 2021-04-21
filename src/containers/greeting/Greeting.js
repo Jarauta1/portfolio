@@ -1,20 +1,18 @@
 import React from "react";
 import "./Greeting.css";
 import { Fade } from "react-reveal";
-import { useHistory } from "react-router-dom";
 import FeelingProud from "./FeelingProud";
-import { style } from "glamor";
+/* import { style } from "glamor"; */
 
 export default function Greeting(props) {
   const theme = props.theme;
-  const history = useHistory();
 
-  const styles = style({
+ /*  const styles = style({
     backgroundColor: `${theme.accentBright}`,
     ":hover": {
       boxShadow: `0 5px 15px ${theme.accentBright}`,
     },
-  });
+  }); */
 
   return (
     <Fade bottom duration={2000} distance="40px">

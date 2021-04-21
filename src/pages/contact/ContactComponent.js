@@ -2,18 +2,28 @@ import React from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import BlogsImg from "./BlogsImg";
+/* import BlogsImg from "./BlogsImg"; */
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
-import { greeting, contactPageData } from "../../portfolio.js";
 import { style } from "glamor";
 
-const ContactData = contactPageData.contactSection;
-const blogSection = contactPageData.blogSection;
 
 function Contact(props) {
   const theme = props.theme;
+  const lenguage = props.lenguage;
+  
+  const ContactData = lenguage.contactPageData.contactSection;
+/*   const blogSection = lenguage.contactPageData.blogSection; */
 
+  let text
+ 
+
+  if (lenguage.name === "spanish") {
+    text = "Visita mi CV"
+  } else if (lenguage.name === "english") {
+    text = "Visit my CV"
+  }
+  
   const styles = style({
     backgroundColor: `${theme.accentBright}`,
     ":hover": {
@@ -23,7 +33,7 @@ function Contact(props) {
 
   return (
     <div className="contact-main">
-      <Header theme={theme} setTheme={props.setTheme} />
+      <Header theme={theme} setTheme={props.setTheme} lenguage={lenguage} setLenguage={props.setLenguage} />
       <div className="basic-contact">
         <Fade bottom duration={1000} distance="40px">
           <div className="contact-heading-div">
@@ -47,18 +57,18 @@ function Contact(props) {
               >
                 {ContactData["description"]}
               </p>
-              <SocialMedia />
+              <SocialMedia lenguage={lenguage} setLenguage={props.setLenguage}/>
               <br />
               <br />
-              <a {...styles} className="general-btn" href={greeting.resumeLink}>
-                Visita mi CV
+              <a {...styles} className="general-btn" href={lenguage.greeting.resumeLink}>
+                {text}
               </a>
             </div>
           </div>
         </Fade>
  
       </div>
-      <Footer theme={props.theme} onToggle={props.onToggle} />
+      <Footer theme={props.theme} lenguage={props.lenguage} onToggle={props.onToggle} />
     </div>
   );
 }

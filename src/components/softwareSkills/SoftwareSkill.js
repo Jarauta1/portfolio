@@ -3,9 +3,7 @@ import "./SoftwareSkill.css";
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
 
 function SoftwareSkill(props) {
-  console.log(props)
   const skills = props.logos;
-  console.log(skills)
   return (
     <div>
       <div className="software-skills-main-div">
