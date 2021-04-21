@@ -7,7 +7,7 @@ const spanish = {
     title: "Hello 👋.",
     title2: "Diego J.",
     logo_name: "diego.j()",
-    nickname: "Diego / picleric",
+    nickname: "Diego / djarauta",
     full_name: "Diego Jarauta",
     subTitle:
       "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
@@ -16,13 +16,9 @@ const spanish = {
     mail: "mailto:diegojarauta8@gmail.com",
   },
   socialMediaLinks : {
-    /* Your Social Media Link */
     github: "https://github.com/Jarauta1",
     linkedin: "https://www.linkedin.com/in/diegojarauta/",
     gmail: "diegojarauta8@gmail.com",
-   /*  gitlab: "https://gitlab.com/harikanani",
-    facebook: "https://www.facebook.com/harikrishan.kanani/",
-    twitter: "https://twitter.com/Harikrushn9", */
     instagram: "https://www.instagram.com/diegojarauta/",
   },
   skills : {
@@ -31,7 +27,7 @@ const spanish = {
         title: "Full Stack",
         fileName: "FullStackImg",
         skills: [
-          "⚡ Hello  Desarrollo front-end para aplicaciones web y smartphone",
+          "⚡ Desarrollo front-end para aplicaciones web y smartphone",
           "⚡ Diseño responsive utilizando ReactJS",
           "⚡ Desarrollo back-end de aplicaciones con NodeJS, Express y base de datos MongoDB",
         ],
@@ -641,7 +637,7 @@ const english = {
     title: "Hello 👋.",
     title2: "Diego J.",
     logo_name: "diego.j()",
-    nickname: "Diego / picleric",
+    nickname: "Diego / djarauta",
     full_name: "Diego Jarauta",
     subTitle:
       "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
@@ -650,13 +646,9 @@ const english = {
     mail: "mailto:diegojarauta8@gmail.com",
   },
   socialMediaLinks : {
-    /* Your Social Media Link */
     github: "https://github.com/Jarauta1",
     linkedin: "https://www.linkedin.com/in/diegojarauta/",
     gmail: "diegojarauta8@gmail.com",
-   /*  gitlab: "https://gitlab.com/harikanani",
-    facebook: "https://www.facebook.com/harikrishan.kanani/",
-    twitter: "https://twitter.com/Harikrushn9", */
     instagram: "https://www.instagram.com/diegojarauta/",
   },
   skills : {
@@ -751,13 +743,13 @@ const english = {
               color: "#439743",
             },
           },
-          // {
-          //   skillName: "GraphQL",
-          //   fontAwesomeClassname: "simple-icons:graphql",
-          //   style: {
-          //     color: "#DE33A6",
-          //   },
-          // },
+         /*  {
+            skillName: "GraphQL",
+            fontAwesomeClassname: "simple-icons:graphql",
+            style: {
+            color: "#DE33A6",
+            },
+          }, */
         
           /* {
             skillName: "jQuery",

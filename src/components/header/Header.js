@@ -30,7 +30,7 @@ function Header(props) {
     section2 = "Education and Certifications"
     section3 = "Experience"
     section4 = "Projects"
-    section5= "Contact and CV"
+    section5= "Contact and Resume"
   }
 
 

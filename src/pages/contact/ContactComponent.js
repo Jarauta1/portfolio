@@ -21,7 +21,7 @@ function Contact(props) {
   if (lenguage.name === "spanish") {
     text = "Visita mi CV"
   } else if (lenguage.name === "english") {
-    text = "Visit my CV"
+    text = "Visit my Resume"
   }
   
   const styles = style({
