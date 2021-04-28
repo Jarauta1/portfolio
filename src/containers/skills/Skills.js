@@ -12,7 +12,7 @@ export default function Skills(props) {
   if (lenguage.name === "spanish") {
     title = "Esto es lo que hago"
   } else if (lenguage.name === "english") {
-    title = "This"
+    title = "Here's what I do"
   }
 
   return (
