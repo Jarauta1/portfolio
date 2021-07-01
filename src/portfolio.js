@@ -1,9 +1,9 @@
 const spanish = {
   name: "spanish",
-  settings : {
+  settings: {
     isSplash: true, // Change this to true if you want to use the splash screen.
   },
-  greeting : {
+  greeting: {
     title: "Hello 👋.",
     title2: "Diego J.",
     logo_name: "diego.j()",
@@ -12,16 +12,16 @@ const spanish = {
     subTitle:
       "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
     resumeLink:
-      "https://drive.google.com/file/d/1t3kjkJUjqjdCJ66RQIW8WElY4Zo85h0M/view",
+      "https://drive.google.com/file/d/172cyFfRLiVJE5eZKHtO0Wp-Oa4-SfvZJ/view?usp=sharing",
     mail: "mailto:diegojarauta8@gmail.com",
   },
-  socialMediaLinks : {
+  socialMediaLinks: {
     github: "https://github.com/Jarauta1",
     linkedin: "https://www.linkedin.com/in/diegojarauta/",
     gmail: "diegojarauta8@gmail.com",
     instagram: "https://www.instagram.com/diegojarauta/",
   },
-  skills : {
+  skills: {
     data: [
       {
         title: "Full Stack",
@@ -120,7 +120,7 @@ const spanish = {
           //     color: "#DE33A6",
           //   },
           // },
-        
+
           /* {
             skillName: "jQuery",
             fontAwesomeClassname: "simple-icons:jquery",
@@ -128,7 +128,7 @@ const spanish = {
               color: "#0865A6",
             },
           }, */
-         
+
           /* {
             skillName: "Git",
             fontAwesomeClassname: "simple-icons:git",
@@ -137,7 +137,30 @@ const spanish = {
               color: "#E94E32",
             },
           }, */
-         
+          {
+            skillName: "Python",
+            fontAwesomeClassname: "simple-icons:python",
+            logo_path: "python.png",
+            style: {
+              color: "#3776AB",
+            },
+          },
+          {
+            skillName: "Django",
+            fontAwesomeClassname: "simple-icons:django",
+            logo_path: "django.png",
+            style: {
+              color: "#0865A6",
+            },
+          },
+          {
+            skillName: "SQL",
+            fontAwesomeClassname: "simple-icons:sql",
+            logo_path: "SQL.png",
+            style: {
+              color: "#E94E32",
+            },
+          },
           {
             skillName: "C++",
             fontAwesomeClassname: "simple-icons:cplusplus",
@@ -146,20 +169,13 @@ const spanish = {
               color: "#E94E32",
             },
           },
-          /* {
-            skillName: "Python",
-            fontAwesomeClassname: "simple-icons:python",
-            style: {
-              color: "#3776AB",
-            },
-          }, */
         ],
       },
       {
         title: "Útiles",
         fileName: "CloudInfraImg",
         skills: [
-         /*  "⚡ Experience working on multiple cloud platforms",
+          /*  "⚡ Experience working on multiple cloud platforms",
           "⚡ Experience hosting and managing websites",
           "⚡ Experience with Continuous Integration", */
         ],
@@ -217,13 +233,22 @@ const spanish = {
               color: "#FFCA28",
             },
           },
-          /* {
+          {
+            skillName: "PyCharm",
+            fontAwesomeClassname: "simple-icons:firebase",
+            logo_path: "pycharm.png",
+            style: {
+              color: "#38AFBB",
+            },
+          },
+          {
             skillName: "PostgreSQL",
             fontAwesomeClassname: "simple-icons:postgresql",
+            logo_path: "postgres.png",
             style: {
               color: "#336791",
             },
-          }, */
+          },
           {
             skillName: "Postman",
             fontAwesomeClassname: "simple-icons:postgresql",
@@ -232,7 +257,7 @@ const spanish = {
               color: "#336791",
             },
           },
-          
+
           {
             skillName: "Trello",
             fontAwesomeClassname: "simple-icons:docker",
@@ -261,8 +286,26 @@ const spanish = {
       },
     ],
   },
-  degrees : {
+  degrees: {
     degrees: [
+      {
+        title: "Backend Python Developer",
+        subtitle: "GeeksHubs",
+        logo_path: "geekshubs.png",
+        alt_name: "GH",
+        duration: "2021",
+        descriptions: [
+          "⚡ Desarrolo de una API completa",
+          "⚡ Python POO",
+          "⚡ Unittest",
+          "⚡ BBDD: Diagrama ER, modelo relacional, DDL+DML, Psycopg, SQLAlchemy ORM",
+          "⚡ SQL, PostgreSQL",
+          "⚡ Arquitectura MVC, API Rest, Dependencias pip",
+          "⚡ Django Rest Framework",
+          "⚡ GIT",
+        ],
+        website_link: "https://geekshubs.com/",
+      },
       {
         title: "Full Stack JavaScript Developer",
         subtitle: "BBK Bootcamp",
@@ -305,7 +348,7 @@ const spanish = {
       },
     ],
   },
-  certifications : {
+  certifications: {
     certifications: [
       {
         title: "Full Stack",
@@ -326,7 +369,7 @@ const spanish = {
         alt_name: "EuroFor",
         color_code: "#ffffff",
       },
-  
+
       // color_code: "#8C151599",
       // color_code: "#7A7A7A",
       // color_code: "#0C9D5899",
@@ -338,7 +381,7 @@ const spanish = {
       // color_code: "#b190b0",
     ],
   },
-  experience : {
+  experience: {
     title: "Experiencia",
     subtitle: "Trabajo, prácticas y voluntariado",
     description:
@@ -355,8 +398,7 @@ const spanish = {
             logo_path: "c4j.png",
             duration: "09/2020 - 02/2021",
             location: "Remoto",
-            description:
-              `Desarrollo completo de la aplicación web e-commerce DJ-Shop de manera individual, adquiriendo competencias y habilidades propias de un entorno de trabajo real. Para esta web las tecnologías utilizadas son:
+            description: `Desarrollo completo de la aplicación web e-commerce DJ-Shop de manera individual, adquiriendo competencias y habilidades propias de un entorno de trabajo real. Para esta web las tecnologías utilizadas son:
   
               ➢ Programación en Javascript
               ➢ Programación de bases de datos MongoDB
@@ -375,8 +417,7 @@ const spanish = {
             logo_path: "elt.png",
             duration: "10/2014 - Actualidad",
             location: "Zaragoza",
-            description:
-              `ELT es un grupo empresarial español especializado en el diseño, fabricación y comercialización de soluciones de iluminación, donde desempeño el siguiente trabajo como técnico de I+D:
+            description: `ELT es un grupo empresarial español especializado en el diseño, fabricación y comercialización de soluciones de iluminación, donde desempeño el siguiente trabajo como técnico de I+D:
   
               ➢ Evaluación equipos electrónicos de potencia
               ➢ Soporte técnico (evaluación, reparación y ayuda técnica a otros departamentos)
@@ -395,8 +436,7 @@ const spanish = {
             logo_path: "etopia.png",
             duration: "06/2014 - 07/2014",
             location: "Zaragoza",
-            description:
-              `Monitor "eTOPIA_Kids", enseñar a niños menores de 14 años a:
+            description: `Monitor "eTOPIA_Kids", enseñar a niños menores de 14 años a:
               - Utilizar software de programación
               - Conceptos electrónicos
               - Iniciación a la robótica
@@ -411,8 +451,7 @@ const spanish = {
             logo_path: "s3d.png",
             duration: "09/2013 - 06/2014",
             location: "Zaragoza",
-            description:
-              `Empresa dedicada a la fabricación y diseño de impresoras 3D, escáneres 3D e impresión de producto para el cliente. En ella, desarrollaba las siguientes funciones como técnico de I+D:
+            description: `Empresa dedicada a la fabricación y diseño de impresoras 3D, escáneres 3D e impresión de producto para el cliente. En ella, desarrollaba las siguientes funciones como técnico de I+D:
   
               ➢ Manejo de impresoras 3D y escáner 3D
               ➢ Mantenimiento y reparación de impresoras 3D
@@ -484,13 +523,13 @@ const spanish = {
       },
     ],
   },
-  projectsHeader : {
+  projectsHeader: {
     title: "Proyectos",
     description:
       "Para mis proyectos intento utilizar una amplia variedad de herramientas y lenguajes. Mi mejor experiencia es crear proyectos full stack con ReactJS en el front y NodeJs en la parte back. A continuación se muestran algunos de mis proyectos:",
     avatar_image_path: "projects_image.svg",
   },
-  contactPageData : {
+  contactPageData: {
     contactSection: {
       title: "Ponte en contacto conmigo",
       profile_image_path: "teach.jpg",
@@ -498,7 +537,7 @@ const spanish = {
         "Puedes contactar conmigo por cualquier sitio que aparece aquí abajo. Intentaré contestar lo más rápido posible.",
     },
   },
-  projects : {
+  projects: {
     data: [
       {
         id: "0",
@@ -572,7 +611,7 @@ const spanish = {
             name: "ReactJS",
             logo_path: "react-black.png",
           },
-          
+
           {
             name: "ChartJS",
             logo_path: "chartjs.png",
@@ -599,8 +638,7 @@ const spanish = {
         id: "",
         name: "Portfolio",
         url: "https://github.com/Jarauta1/portfolio",
-        description:
-          "Este portfolio como tal es otro proyecto desarrollado",
+        description: "Este portfolio como tal es otro proyecto desarrollado",
         languages: [
           {
             name: "HTML5",
@@ -618,22 +656,18 @@ const spanish = {
             name: "ReactJS",
             logo_path: "react-black.png",
           },
-          
         ],
       },
-      
-      
-    
     ],
-  }
-}
+  },
+};
 
 const english = {
   name: "english",
-  settings : {
+  settings: {
     isSplash: true, // Change this to true if you want to use the splash screen.
   },
-  greeting : {
+  greeting: {
     title: "Hello 👋.",
     title2: "Diego J.",
     logo_name: "diego.j()",
@@ -642,16 +676,16 @@ const english = {
     subTitle:
       "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
     resumeLink:
-      "https://drive.google.com/file/d/1t3kjkJUjqjdCJ66RQIW8WElY4Zo85h0M/view",
+      "https://drive.google.com/file/d/172cyFfRLiVJE5eZKHtO0Wp-Oa4-SfvZJ/view?usp=sharing",
     mail: "mailto:diegojarauta8@gmail.com",
   },
-  socialMediaLinks : {
+  socialMediaLinks: {
     github: "https://github.com/Jarauta1",
     linkedin: "https://www.linkedin.com/in/diegojarauta/",
     gmail: "diegojarauta8@gmail.com",
     instagram: "https://www.instagram.com/diegojarauta/",
   },
-  skills : {
+  skills: {
     data: [
       {
         title: "Full Stack",
@@ -743,14 +777,14 @@ const english = {
               color: "#439743",
             },
           },
-         /*  {
-            skillName: "GraphQL",
-            fontAwesomeClassname: "simple-icons:graphql",
-            style: {
-            color: "#DE33A6",
-            },
-          }, */
-        
+          // {
+          //   skillName: "GraphQL",
+          //   fontAwesomeClassname: "simple-icons:graphql",
+          //   style: {
+          //     color: "#DE33A6",
+          //   },
+          // },
+
           /* {
             skillName: "jQuery",
             fontAwesomeClassname: "simple-icons:jquery",
@@ -758,7 +792,7 @@ const english = {
               color: "#0865A6",
             },
           }, */
-         
+
           /* {
             skillName: "Git",
             fontAwesomeClassname: "simple-icons:git",
@@ -767,7 +801,30 @@ const english = {
               color: "#E94E32",
             },
           }, */
-         
+          {
+            skillName: "Python",
+            fontAwesomeClassname: "simple-icons:python",
+            logo_path: "python.png",
+            style: {
+              color: "#3776AB",
+            },
+          },
+          {
+            skillName: "Django",
+            fontAwesomeClassname: "simple-icons:django",
+            logo_path: "django.png",
+            style: {
+              color: "#0865A6",
+            },
+          },
+          {
+            skillName: "SQL",
+            fontAwesomeClassname: "simple-icons:sql",
+            logo_path: "SQL.png",
+            style: {
+              color: "#E94E32",
+            },
+          },
           {
             skillName: "C++",
             fontAwesomeClassname: "simple-icons:cplusplus",
@@ -776,20 +833,13 @@ const english = {
               color: "#E94E32",
             },
           },
-          /* {
-            skillName: "Python",
-            fontAwesomeClassname: "simple-icons:python",
-            style: {
-              color: "#3776AB",
-            },
-          }, */
         ],
       },
       {
         title: "Tools",
         fileName: "CloudInfraImg",
         skills: [
-         /*  "⚡ Experience working on multiple cloud platforms",
+          /*  "⚡ Experience working on multiple cloud platforms",
           "⚡ Experience hosting and managing websites",
           "⚡ Experience with Continuous Integration", */
         ],
@@ -847,13 +897,22 @@ const english = {
               color: "#FFCA28",
             },
           },
-          /* {
+          {
+            skillName: "PyCharm",
+            fontAwesomeClassname: "simple-icons:firebase",
+            logo_path: "pycharm.png",
+            style: {
+              color: "#38AFBB",
+            },
+          },
+          {
             skillName: "PostgreSQL",
             fontAwesomeClassname: "simple-icons:postgresql",
+            logo_path: "postgres.png",
             style: {
               color: "#336791",
             },
-          }, */
+          },
           {
             skillName: "Postman",
             fontAwesomeClassname: "simple-icons:postgresql",
@@ -862,7 +921,7 @@ const english = {
               color: "#336791",
             },
           },
-          
+
           {
             skillName: "Trello",
             fontAwesomeClassname: "simple-icons:docker",
@@ -891,8 +950,26 @@ const english = {
       },
     ],
   },
-  degrees : {
+  degrees: {
     degrees: [
+      {
+        title: "Backend Python Developer",
+        subtitle: "GeeksHubs",
+        logo_path: "geekshubs.png",
+        alt_name: "GH",
+        duration: "2021",
+        descriptions: [
+          "⚡ Development of a complete API",
+          "⚡ Python POO",
+          "⚡ Unittest",
+          "⚡ DB: ER diagram, relational model, DDL + DML, Psycopg, SQLAlchemy ORM",
+          "⚡ SQL, PostgreSQL",
+          "⚡ MVC architecture, API Rest, pip dependencies",
+          "⚡ Django Rest Framework",
+          "⚡ GIT",
+        ],
+        website_link: "https://geekshubs.com/",
+      },
       {
         title: "Full Stack JavaScript Developer",
         subtitle: "BBK Bootcamp",
@@ -935,7 +1012,7 @@ const english = {
       },
     ],
   },
-  certifications : {
+  certifications: {
     certifications: [
       {
         title: "Full Stack",
@@ -956,7 +1033,7 @@ const english = {
         alt_name: "EuroFor",
         color_code: "#ffffff",
       },
-  
+
       // color_code: "#8C151599",
       // color_code: "#7A7A7A",
       // color_code: "#0C9D5899",
@@ -968,7 +1045,7 @@ const english = {
       // color_code: "#b190b0",
     ],
   },
-  experience : {
+  experience: {
     title: "Experience",
     subtitle: "Work, Internship and Volunteership",
     description:
@@ -985,8 +1062,7 @@ const english = {
             logo_path: "c4j.png",
             duration: "09/2020 - 02/2021",
             location: "Remoto",
-            description:
-              `Complete development of the DJ-Shop e-commerce web application individually, acquiring skills and abilities typical of a real work environment. For this website the technologies used are:
+            description: `Complete development of the DJ-Shop e-commerce web application individually, acquiring skills and abilities typical of a real work environment. For this website the technologies used are:
   
               ➢ Javascript programming
               ➢ MongoDB database programming
@@ -1005,8 +1081,7 @@ const english = {
             logo_path: "elt.png",
             duration: "10/2014 - Actualidad",
             location: "Zaragoza",
-            description:
-              `ELT is a Spanish business group specialized in the design, manufacture and commercialization of lighting solutions, where I perform the following work as an R&D technician:
+            description: `ELT is a Spanish business group specialized in the design, manufacture and commercialization of lighting solutions, where I perform the following work as an R&D technician:
   
               ➢ Evaluation of power electronic equipment
               ➢ Technical support (evaluation, repair and technical help to other departments)
@@ -1025,8 +1100,7 @@ const english = {
             logo_path: "etopia.png",
             duration: "06/2014 - 07/2014",
             location: "Zaragoza",
-            description:
-              `Monitor "eTOPIA_Kids", teach children under 14 years to:
+            description: `Monitor "eTOPIA_Kids", teach children under 14 years to:
               - Use programming software
               - Electronic concepts
               - Initiation to robotics
@@ -1041,8 +1115,7 @@ const english = {
             logo_path: "s3d.png",
             duration: "09/2013 - 06/2014",
             location: "Zaragoza",
-            description:
-              `Company dedicated to the manufacture and design of 3D printers, 3D scanners and product printing for the client. In it, he developed the following functions as an R&D technician:
+            description: `Company dedicated to the manufacture and design of 3D printers, 3D scanners and product printing for the client. In it, he developed the following functions as an R&D technician:
   
               ➢ Handling of 3D printers and 3D scanner
               ➢ Maintenance and repair of 3D printers
@@ -1114,13 +1187,13 @@ const english = {
       },
     ],
   },
-  projectsHeader : {
+  projectsHeader: {
     title: "Projects",
     description:
       "For my projects I try to use a wide variety of tools and languages. My best experience is creating full stack projects with ReactJS on the front and NodeJs on the back. Below are some of my projects:",
     avatar_image_path: "projects_image.svg",
   },
-  contactPageData : {
+  contactPageData: {
     contactSection: {
       title: "Contact Me",
       profile_image_path: "teach.jpg",
@@ -1128,7 +1201,7 @@ const english = {
         "You can contact me at the places mentioned below. I will try to get back to you as fast as I can.",
     },
   },
-  projects : {
+  projects: {
     data: [
       {
         id: "0",
@@ -1183,8 +1256,7 @@ const english = {
         id: "1",
         name: "AppRun",
         url: "https://github.com/Jarauta1/3M12---AppRun_cliente",
-        description:
-          "Full Stack project for a sports data sampling web page",
+        description: "Full Stack project for a sports data sampling web page",
         languages: [
           {
             name: "HTML5",
@@ -1202,7 +1274,7 @@ const english = {
             name: "ReactJS",
             logo_path: "react-black.png",
           },
-          
+
           {
             name: "ChartJS",
             logo_path: "chartjs.png",
@@ -1229,8 +1301,7 @@ const english = {
         id: "",
         name: "Portfolio",
         url: "https://github.com/Jarauta1/portfolio",
-        description:
-          "This portfolio as such is another project developed",
+        description: "This portfolio as such is another project developed",
         languages: [
           {
             name: "HTML5",
@@ -1248,14 +1319,10 @@ const english = {
             name: "ReactJS",
             logo_path: "react-black.png",
           },
-          
         ],
       },
-      
-      
-    
     ],
-  }
-}
+  },
+};
 
 export const lenguages = { spanish: spanish, english: english };
