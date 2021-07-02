@@ -676,7 +676,7 @@ const english = {
     subTitle:
       "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
     resumeLink:
-      "https://drive.google.com/file/d/172cyFfRLiVJE5eZKHtO0Wp-Oa4-SfvZJ/view?usp=sharing",
+      "https://drive.google.com/file/d/1weSI9kdP5mknmo5rJfY9DS32JsQDpkDq/view?usp=sharing",
     mail: "mailto:diegojarauta8@gmail.com",
   },
   socialMediaLinks: {
