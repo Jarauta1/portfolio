@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5de2959d7fa0b21abf04193cb85f0e41",
+    "revision": "d1316ed7391d4b779bdae9acbd8eab4c",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "0a10f192f13b35cdd07d",
-    "url": "/portfolio/static/css/main.c35b6dec.chunk.css"
+    "revision": "183a17ae57a78629481d",
+    "url": "/portfolio/static/css/main.7c0ea353.chunk.css"
   },
   {
-    "revision": "ea6b9260dced1384ba17",
-    "url": "/portfolio/static/js/2.1516227d.chunk.js"
+    "revision": "83e8c51b37ced316cdf8",
+    "url": "/portfolio/static/js/2.833ee67c.chunk.js"
   },
   {
     "revision": "1ac4a8177a8d9f84c4732e5e50c7274f",
-    "url": "/portfolio/static/js/2.1516227d.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.833ee67c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0a10f192f13b35cdd07d",
-    "url": "/portfolio/static/js/main.c20c353f.chunk.js"
+    "revision": "183a17ae57a78629481d",
+    "url": "/portfolio/static/js/main.ea604e58.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -68,6 +68,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
+    "revision": "59a15cbae907c7a8964802fbf4064b4c",
+    "url": "/portfolio/static/media/SQL.59a15cba.png"
+  },
+  {
     "revision": "b228d32130e3be101996d169b0218994",
     "url": "/portfolio/static/media/arduino.b228d321.png"
   },
@@ -116,6 +120,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/diego.db735c47.pdf"
   },
   {
+    "revision": "916dd8f921c5fe3309e6f4ba41d162bf",
+    "url": "/portfolio/static/media/django.916dd8f9.png"
+  },
+  {
     "revision": "fb6fee15417de35e90903d607f358adb",
     "url": "/portfolio/static/media/dropbox.fb6fee15.png"
   },
@@ -148,8 +156,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/fa-brands-400.5063b105.eot"
   },
   {
-    "revision": "a9c4bb7348f42626454c988dbde1d0a0",
-    "url": "/portfolio/static/media/fa-brands-400.a9c4bb73.svg"
+    "revision": "9d204f50ec8e5bcc5dcda0132d404b48",
+    "url": "/portfolio/static/media/fa-brands-400.9d204f50.svg"
   },
   {
     "revision": "c5e0f14f88a828261ba01558ce2bf26f",
@@ -164,8 +172,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/fa-regular-400.65b286af.ttf"
   },
   {
-    "revision": "7b9568e6389b1f8ae0902cd39665fc1e",
-    "url": "/portfolio/static/media/fa-regular-400.7b9568e6.svg"
+    "revision": "9443c1e7fdf95d739af3f0901224f90a",
+    "url": "/portfolio/static/media/fa-regular-400.9443c1e7.svg"
   },
   {
     "revision": "c1a866ec0e04a5e1915b41fcf261457c",
@@ -188,6 +196,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/fa-solid-900.333bae20.woff"
   },
   {
+    "revision": "3d102342391af184d5ae9e7708d8220f",
+    "url": "/portfolio/static/media/fa-solid-900.3d102342.svg"
+  },
+  {
     "revision": "44d537ab79f921fde5a28b2c1636f397",
     "url": "/portfolio/static/media/fa-solid-900.44d537ab.woff2"
   },
@@ -196,12 +208,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/fa-solid-900.8e4a6dcc.eot"
   },
   {
-    "revision": "c2801fb415f03c7b170934769d7b5397",
-    "url": "/portfolio/static/media/fa-solid-900.c2801fb4.svg"
-  },
-  {
     "revision": "93ce2baef5e3d22d0cc42545d8a33b77",
     "url": "/portfolio/static/media/fondo.93ce2bae.jpg"
+  },
+  {
+    "revision": "e06e8b2ef77888342a7db494eb1fa2ce",
+    "url": "/portfolio/static/media/geekshubs.e06e8b2e.png"
   },
   {
     "revision": "d213e5c626a6c868feb06754fb0d46bb",
@@ -256,8 +268,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/pngwing.com (4).c214ae89.png"
   },
   {
+    "revision": "70339eed0c3e9613810f5e3533a63f0a",
+    "url": "/portfolio/static/media/postgres.70339eed.png"
+  },
+  {
     "revision": "986f0e9fc68337277ffb6f864663a54c",
     "url": "/portfolio/static/media/postman.986f0e9f.png"
+  },
+  {
+    "revision": "3af85c1ffe6ba478b2a33cabd80426a9",
+    "url": "/portfolio/static/media/pycharm.3af85c1f.png"
+  },
+  {
+    "revision": "447bf80e740e2c977cce5182fe1b57c4",
+    "url": "/portfolio/static/media/python.447bf80e.png"
   },
   {
     "revision": "dee40f52b8ccd3564b177f10cd2166f5",
